@@ -11,7 +11,17 @@ while number <10:
 
 users=["ali","akbar","reza"]
 
-varifi  = []
+varify = []
 
 while users:
-    user=users.pop()
+    user = users.pop()
+    varify.append(user)
+
+    print(varify)
+###############################################################################
+
+pets = ["dog","cat","bird","spider","sheep","cat","cow","rost","pig","cat","elephant","cat","wal","cat"]
+
+while "cat" in pets:
+    pets.remove("cat")
+print(pets)
